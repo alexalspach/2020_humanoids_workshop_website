@@ -20,14 +20,40 @@
 	}
 
 
+
 	/*Table*/
-	.schedule .sched_time {
-		min-width: 150px;
-		text-align: center;
+
+
+
+	table td {
+		padding-left: 1.0em;
+		padding-right: 1.0em;
 	}
 
+	.wrapper.style1 table tbody tr:first-child {
+		background-color: transparent;
+		font-weight: 700;
+		line-height: 1.2em;
+	}
+
+	.wrapper.style1 table tbody tr {
+		background-color: #fff;
+	}	
+
+	.wrapper.style1 table tbody tr:nth-child(2n + 1) {
+		background-color: transparent;
+	}	
+
+
+	.schedule .sched_time {
+		min-width: 95px;
+		text-align: center;
+		
+	}
+
+
 	.schedule .sched_speaker { 
-    	padding-right: 1.5em;
+		padding-left: 2.0em;
 	}
 
 	#footer a {
@@ -316,8 +342,10 @@
 
 
 		/*Table*/
+		/*
 		.schedule .sched_time {width: 100%; float:left; padding-bottom: 0; text-align: left;}
 		.schedule .sched_speaker { float:left; padding-top: 0;}
+		*/
 
 
 	}
