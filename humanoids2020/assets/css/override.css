@@ -27,33 +27,57 @@
 
 	table td {
 		padding-left: 1.0em;
-		padding-right: 1.0em;
+		padding-right: 0.0em;
 	}
 
+	.sticky-header {
+	  position: sticky;
+	  top: 4em;
+	  background-color: #DDD;
+	  /*padding-left: 1.0em;
+	  padding-right: 1.0em;*/
+	  margin-bottom: -2.5em;
+	}
+
+/*
 	.wrapper.style1 table tbody tr:first-child {
 		background-color: transparent;
 		font-weight: 700;
 		line-height: 1.2em;
 	}
-
+*/
 	.wrapper.style1 table tbody tr {
 		background-color: #fff;
 	}	
 
 	.wrapper.style1 table tbody tr:nth-child(2n + 1) {
 		background-color: transparent;
+
 	}	
 
 
+	.schedule .sched_zone {
+		width: 13%;
+		text-align: left;
+		float:left;
+		font-weight: 700;
+		line-height: 1.2em;
+		border-bottom: 2px solid #224e63;
+	}
+
 	.schedule .sched_time {
-		min-width: 95px;
-		text-align: center;
-		
+		width: 13%;
+		text-align: left;
+		float:left;
+		padding-top: 3em;
+		padding-bottom: 0em;
+		font-weight: 700;
 	}
 
 
+
 	.schedule .sched_speaker { 
-		padding-left: 2.0em;
+		padding-left: 1.0em;
 	}
 
 	#footer a {
@@ -309,6 +333,30 @@
 			padding: 0em 2em 2em 2em;
 
 		}
+
+
+		.sticky-header {
+		  top: 44px;
+		 }		
+
+
+		.schedule .sched_zone {
+			width: 25%;
+			font-size: .8em;
+			text-align: center;
+			padding-left: 0em;
+			padding-right: 0em;
+
+		}
+
+		.schedule .sched_time {
+			width: 25%;
+			text-align: center;
+			padding-left: 0em;
+			padding-right: 0em;
+
+		}
+
 
 	}
 
